@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
-scanf("%d %d %d",&a,&b,&c);
-if((a>b)&&(a>c))
-printf("%d",a);
-if((b>a)&&(b>c))
+int m,n,p;
+scanf("%d %d %d",&m,&n,&p);
+if((m>n)&&(m>o))
+printf("%d",m);
+if((n>m)&&(n>p))
 printf("%d",b);
-if((c>a)&&(c>b))
+if((p>m)&&(p>n))
 printf("%d",c);
 return 0;
 }
