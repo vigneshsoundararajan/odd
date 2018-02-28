@@ -7,7 +7,7 @@ int main(void) {
 	n=strlen(a);
 	for(i=0;i<n;i++)
 	{
-		printf("\n %c",a[i]);
+		printf("\t %c",a[i]);
 	}
 	return 0;
 }
